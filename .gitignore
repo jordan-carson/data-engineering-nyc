@@ -3,13 +3,20 @@
 #       Remove: cache and checkpoints
 #       11:29 PM
 
-__pycache__
+/__pycache__/
+/.git/
+
 
 # Remove all data files
+output.*
+*.feather
+*.parquet
 *.csv
 *.json
 *.xml
-
+secret.json
+*.json
+/.data/
 # Remove all log files
 *.log
 

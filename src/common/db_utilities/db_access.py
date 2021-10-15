@@ -78,6 +78,7 @@ def query_df(
     Returns:
         pandas.DataFrame (read from server)
     """
+    # TODO: remove try clause - to a context manager (with clause)
     start = datetime.datetime.now()
     connection = get_connection(
         connection_string, database_type=database_type, library=library

@@ -20,14 +20,4 @@ The information from the MVCC originates from [Police Reports (MV-104AN)](https:
 We are going to spin up a low-level EC2 instance using the ami-
 
 
-
-### Usage
-
-At first when I read Michael's email - the thing that stuck out was the number of rows in the dataset. Although the number of columns wasn't mentioned,
-I decided to quickly build a terraform module to create a simple ec2-t2.micro-instance in AWS.
-
-
-
-
-
 ### API Data Download
