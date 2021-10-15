@@ -17,7 +17,13 @@ The information from the MVCC originates from [Police Reports (MV-104AN)](https:
 
 
 ### Spinning up EC2 Compute using Terraform
-We are going to spin up a low-level EC2 instance using the ami-
+We have relevant terraform files available in infra/terraform to spin up a EC2 compute. We are not using for this project as the data can easily fit in memory.
 
+### References
 
-### API Data Download
+Useful Resources, additional sources of data, and API documentation.
+1. https://towardsdatascience.com/fast-and-async-in-python-accelerate-your-requests-using-asyncio-62dafca83c33
+2. https://www.nycbynatives.com/nyc_info/new_york_city_zip_codes.php
+3. https://dev.socrata.com/docs/queries/
+4. https://dev.socrata.com/docs/paging.html
+   
