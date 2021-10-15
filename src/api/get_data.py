@@ -4,8 +4,6 @@
 @Endpoint   : 
 
 """
-
-
 # We have a few options to query the API
 # Note that the API Call has a specified limit of 1000
 
@@ -85,7 +83,6 @@ def api_pagination_results(last_offset_value=1829000, orient = 'records'):
         if length < API_LIMIT:
             finished = True
         
-    
     # concatenate the list into one master dataframe
     df = pd.concat(out_frames, ignore_index=True)
     return df
@@ -96,9 +93,6 @@ def api_pagenation_parallelized():
     Attempting to parallelize the API call via ThreadPoolExecutor
     """
     from concurrent import futures
-    maxWorker = min(100, )
-
-    
     maxWorker = min(10,len(total_amount_of_pages)) ## how many thread you want to deal in parallel. Here 10 maximum, or the amount of pages requested.
     urls = ['url'*n for n in total_amount_of_pages] ## here I create an iterable that the function will consume.
     with futures.ThreadPoolExecutor(workers) as executor:
