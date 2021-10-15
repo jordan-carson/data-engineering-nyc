@@ -1,0 +1,32 @@
+#
+#       Jordan --> Remove all unncessary files for git/master^
+#       Remove: cache and checkpoints
+#       11:29 PM
+
+__pycache__
+
+# Remove all data files
+*.csv
+*.json
+*.xml
+
+# Remove all log files
+*.log
+
+*.py[cod]
+
+# VS Code
+.vscode
+
+# notebooks
+.ipynb_checkpoints
+# database.ini
+
+# PyCharm
+.idea
+
+# PyTest Cache
+.pytest_cache
+
+# # C extensions
+# *.so
