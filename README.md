@@ -5,8 +5,8 @@ __Date__   - Thursday October 14th, 2021
 
 This assignment is broken up into two stages, with each stage containing its own workbook. Part1 will consist of Downloading data via the NYC OpenData API, while the second stage consists of exploratory the data source. The link to the notebooks can be found below:
 
-- Data Download
-- Exploratory Data Analysis
+- [Data Download](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part1_data_download.ipynb)
+- [Exploratory Data Analysis](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part2_eda.ipynb)
 ### NYC Open Data
 
 The source data for the assignment is the [Motor Vehicle Collisions - Crash table](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95), or MVCC, provided by the **NYC OpenData** database. This table contains details on crash events from all NYC Boroughs, where each row represents a unique crash event.
