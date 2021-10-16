@@ -3,10 +3,12 @@
 #       Remove: cache and checkpoints
 #       11:29 PM
 
-/__pycache__/
+/__pycache__/*
 /.git/
 /data/
-
+/infra/aws/__pycache__
+/src/api/__pycache__
+/src/common/utilities/__pycache__
 /src/notebooks/
 
 # Remove all data files
