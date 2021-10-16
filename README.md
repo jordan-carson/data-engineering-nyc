@@ -7,6 +7,7 @@ This assignment is broken up into two stages, with each stage containing its own
 
 - [Data Download](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part1_data_download.ipynb)
 - [Exploratory Data Analysis](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part2_eda.ipynb)
+- [Tableau Dashboard Online](https://public.tableau.com/app/profile/jordan.carson/viz/NYCOpenData/NYCOpenData?publish=yes)
 ### NYC Open Data
 
 The source data for the assignment is the [Motor Vehicle Collisions - Crash table](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95), or MVCC, provided by the **NYC OpenData** database. This table contains details on crash events from all NYC Boroughs, where each row represents a unique crash event.
