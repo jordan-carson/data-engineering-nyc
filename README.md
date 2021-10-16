@@ -3,7 +3,7 @@
 __Author__ - Jordan Carson\
 __Date__   - Thursday October 14th, 2021
 
-This assignment is broken up into two stages, with each stage comprised of its own workbook. The link to the notebooks can be found below:
+This assignment is broken up into two stages, with each stage containing its own workbook. Part1 will consist of Downloading data via the NYC OpenData API, while the second stage consists of exploratory the data source. The link to the notebooks can be found below:
 
 - Data Download
 - Exploratory Data Analysis
@@ -15,10 +15,6 @@ The information from the MVCC originates from [Police Reports (MV-104AN)](https:
 
 [To read more information about the CompStat program.](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
 
-
-### Spinning up EC2 Compute using Terraform
-We have relevant terraform files available in infra/terraform to spin up a EC2 compute. We are not using for this project as the data can easily fit in memory.
-
 ### References
 
 Useful Resources, additional sources of data, and API documentation.
@@ -26,4 +22,4 @@ Useful Resources, additional sources of data, and API documentation.
 2. https://www.nycbynatives.com/nyc_info/new_york_city_zip_codes.php
 3. https://dev.socrata.com/docs/queries/
 4. https://dev.socrata.com/docs/paging.html
-   
+5. https://datatable.readthedocs.io/en/latest/manual/comparison_with_pandas.html
