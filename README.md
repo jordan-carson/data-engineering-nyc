@@ -2,7 +2,7 @@
 
 __Author__ - Jordan Carson\
 __Date__   - Thursday October 14th, 2021\
-__Role__   - Data Engineer
+__Role__   - Data Scientist and Engineer
 
 This assignment is broken up into two stages - with each stage containing its own workbook. Part 1 will consist of downloading data via the NYC OpenData API, while the second stage consists of exploratory data analysis using the data gathered from Part 1. 
 
