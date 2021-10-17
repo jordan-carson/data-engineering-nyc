@@ -26,7 +26,7 @@ Within the tests directory we have included a unit test for the API Response, us
 ### File Structure
 
 The file structure below after .gitignore
-
+```
 📦data-engineering-nyc
  ┣ 📂.data
  ┃ ┣ 📜output.csv
@@ -70,7 +70,8 @@ The file structure below after .gitignore
  ┣ 📜README.md
  ┣ 📜requirements.txt
  ┗ 📜requirements.yaml
-### References
+ ```
+ ### References
 
 Useful Resources, additional sources of data, and API documentation.
 1. https://towardsdatascience.com/fast-and-async-in-python-accelerate-your-requests-using-asyncio-62dafca83c33
