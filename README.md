@@ -4,7 +4,9 @@ __Author__ - Jordan Carson\
 __Date__   - Thursday October 14th, 2021
 __Role__   - Data Engineer
 
-This assignment is broken up into two stages, with each stage containing its own workbook. Part1 will consist of Downloading data via the NYC OpenData API, while the second stage consists of exploratory data analysis. The link to the notebooks can be found below:
+This assignment is broken up into two stages - with each stage containing its own workbook. Part 1 will consist of downloading data via the NYC OpenData API, while the second stage consists of exploratory data analysis using the data gathered from Part 1. 
+
+The links to the Notbook and Dashboard can be found below:
 
 - [Data Download](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part1_data_download.ipynb)
 - [Exploratory Data Analysis](https://github.com/jordan-carson/data-engineering-nyc/blob/main/src/part2_eda.ipynb)
@@ -25,3 +27,8 @@ Useful Resources, additional sources of data, and API documentation.
 3. https://dev.socrata.com/docs/queries/
 4. https://dev.socrata.com/docs/paging.html
 5. https://datatable.readthedocs.io/en/latest/manual/comparison_with_pandas.html
+
+
+### Unit Testing and Mock API Requests
+
+Within the tests directory we have included a unit test for the API, using `unittest` and `unittest.mock.patch`.
