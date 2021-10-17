@@ -19,6 +19,57 @@ The information from the MVCC originates from [Police Reports (MV-104AN)](https:
 
 [To read more information about the CompStat program.](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
 
+### Unit Testing and Mock API Requests
+
+Within the tests directory we have included a unit test for the API Response, using `unittest` and `unittest.mock.patch`.
+
+### File Structure
+
+The file structure below after .gitignore
+
+📦data-engineering-nyc
+ ┣ 📂.data
+ ┃ ┣ 📜output.csv
+ ┃ ┗ 📜output.feather
+ ┣ 📂infra
+ ┃ ┗ 📂aws
+ ┃ ┃ ┣ 📜secret.json
+ ┃ ┃ ┗ 📜secrets_manager.py
+ ┣ 📂src
+ ┃ ┣ 📂api
+ ┃ ┃ ┣ 📜async_api.py
+ ┃ ┃ ┣ 📜get_data.py
+ ┃ ┃ ┗ 📜zip_codes.py
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂data_blend
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┗ 📜operations.py
+ ┃ ┃ ┣ 📂db_utilities
+ ┃ ┃ ┃ ┣ 📜database.py
+ ┃ ┃ ┃ ┣ 📜db_access.py
+ ┃ ┃ ┃ ┗ 📜db_utilities.py
+ ┃ ┃ ┗ 📂utilities
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┣ 📜decorators.py
+ ┃ ┃ ┃ ┣ 📜df_utils.py
+ ┃ ┃ ┃ ┣ 📜filesystem.py
+ ┃ ┃ ┃ ┣ 📜logging_settings.py
+ ┃ ┃ ┃ ┣ 📜parallel.py
+ ┃ ┃ ┃ ┗ 📜time_utils.py
+ ┃ ┣ 📂notebooks
+ ┃ ┃ ┗ 📜main.ipynb
+ ┃ ┣ 📜part1_data_download.ipynb
+ ┃ ┗ 📜part2_eda.ipynb
+ ┣ 📂tests
+ ┃ ┗ 📜tests_api_response.py
+ ┣ 📜.gitattributes
+ ┣ 📜.gitignore
+ ┣ 📜.pre-commit-config.yaml
+ ┣ 📜.python-version
+ ┣ 📜AUTHORS.rst
+ ┣ 📜README.md
+ ┣ 📜requirements.txt
+ ┗ 📜requirements.yaml
 ### References
 
 Useful Resources, additional sources of data, and API documentation.
@@ -27,8 +78,3 @@ Useful Resources, additional sources of data, and API documentation.
 3. https://dev.socrata.com/docs/queries/
 4. https://dev.socrata.com/docs/paging.html
 5. https://datatable.readthedocs.io/en/latest/manual/comparison_with_pandas.html
-
-
-### Unit Testing and Mock API Requests
-
-Within the tests directory we have included a unit test for the API, using `unittest` and `unittest.mock.patch`.
