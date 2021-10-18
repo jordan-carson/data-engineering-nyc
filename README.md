@@ -79,3 +79,5 @@ Useful Resources, additional sources of data, and API documentation.
 3. https://dev.socrata.com/docs/queries/
 4. https://dev.socrata.com/docs/paging.html
 5. https://datatable.readthedocs.io/en/latest/manual/comparison_with_pandas.html
+6. stackoverflow.com!!!
+
